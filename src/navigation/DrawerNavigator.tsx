@@ -7,7 +7,9 @@ const Drawer = createDrawerNavigator();
 
 export const DrawerNavigator = () => {
   return (
-    <Drawer.Navigator initialRouteName="HomeStackNavigator">
+    <Drawer.Navigator
+      initialRouteName="HomeStackNavigator"
+      screenOptions={{headerShown: false}}>
       <Drawer.Screen name="HomeStackNavigator" component={HomeStackNavigator} />
       <Drawer.Screen name="Style" component={Style} />
     </Drawer.Navigator>

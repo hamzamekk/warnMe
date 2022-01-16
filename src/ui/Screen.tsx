@@ -11,7 +11,6 @@ export const Screen = ({children}: Props) => (
     <View
       justifyContent="center"
       flexDirection="column"
-      paddingHorizontal="m"
       flex={1}
       bg="background">
       {children}
